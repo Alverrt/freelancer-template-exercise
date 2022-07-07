@@ -1,0 +1,40 @@
+.portfolio-container .seperator .seperator-line {
+    background-color: #2c3e50;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+.portfolio-container > * {
+    margin: 8px;
+}
+
+.portfolio-heading {
+    color: #2c3e50;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.gallery-container {
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-container .gallery-item {
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+}
